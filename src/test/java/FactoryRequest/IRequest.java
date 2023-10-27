@@ -1,2 +1,7 @@
-package FactoryRequest;public interface IRequest {
+package FactoryRequest;
+
+import io.restassured.response.Response;
+
+public interface IRequest {
+    Response send(RequestInfo requestInfo);
 }

@@ -4,7 +4,8 @@ import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;
 
-public class RequestPUT implements iRequest {
+public class RequestPUT implements IRequest {
+
     @Override
     public Response send(RequestInfo requestInfo) {
         Response response = given()
